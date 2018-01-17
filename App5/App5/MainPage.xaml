@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App5"
+             x:Class="App5.MainPage">
+
+    <StackLayout Orientation="Vertical" Padding="20" Spacing="10">
+        <Label Text="Login" FontSize="Large" HorizontalTextAlignment="Center"/>
+        <Entry x:Name="enUsername" Placeholder="Enter your Username"/>
+        <Entry x:Name="enPassword" Placeholder="Enter your Password" IsPassword="True"/>
+        <Button x:Name="btnSubmit" Text="Submit" BackgroundColor="AliceBlue" Clicked="btnSubmit_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
